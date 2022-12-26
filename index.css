@@ -1,0 +1,60 @@
+/* Add the decaration on top */
+@font-face { 
+    src: url("cursed_timer_ulil/CursedTimerULiL.ttf") format('truetype');
+    font-family: 'Cursed Timer ULiL, Regular';
+    }
+body
+{
+    background: linear-gradient(lightblue,whitesmoke);
+}
+.scoreboard
+{
+    margin: 100px auto;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.board-title
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+.score-container
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 50px;
+    align-items: center;
+}
+.score-display
+{
+    display: flex;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 135px;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Cursed Timer ULiL, Regular';
+    border-radius: 5px;
+}
+.score-btns
+{
+    margin-top: 30px;
+}
+button
+{
+    background-color: #1B244A;
+    border: 2px solid #9aabd898;
+    border-radius: 5px;
+    padding: 7px 9px;
+    color: #9aabd898;
+    font-weight: bolder;
+    margin-right: 5px;
+    font-family: 'Cursed Timer ULiL, Regular';
+}
