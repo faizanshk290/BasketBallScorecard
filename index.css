@@ -2,10 +2,6 @@
 @font-face { 
     src: url("cursed_timer_ulil/CursedTimerULiL.ttf") format('truetype');
     font-family: 'Cursed Timer ULiL, Regular';
-    }
-body
-{
-    background: linear-gradient(lightblue,whitesmoke);
 }
 .scoreboard
 {
